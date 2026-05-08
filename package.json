@@ -1,0 +1,29 @@
+{
+  "name": "devconnect",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/color-mode": "^4.0.0",
+    "@pinia/nuxt": "^0.11.3",
+    "@tailwindcss/vite": "^4.2.4",
+    "@vueuse/nuxt": "^14.3.0",
+    "lucide-vue-next": "^1.0.0",
+    "nuxt": "^4.4.4",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.33",
+    "vue-router": "^5.0.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "daisyui": "^5.5.19",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.2.4"
+  }
+}
